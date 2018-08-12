@@ -1,0 +1,19 @@
+{
+  "name": "chromecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Chromecast.js",
+  "scripts": {
+    "test": "cross-env DEBUG=chromecast:* jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jasmine": "^3.2.0"
+  },
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "node-log": "git+https://github.com/majoer/node-log.git"
+  }
+}
